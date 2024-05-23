@@ -27,11 +27,11 @@ const clienteum = cadastrarCliente('Caio Rocha', 'caiorf2005@gmail.com', 19);
 console.log(clienteum);
 
 // UPDATE
-const novosDados = { nome: 'Aroldo Junior', email: 'aroldojr@gmail.com', idade: 20 };  // Corrigido
+const novosDados = { nome: 'Aroldo Junior', email: 'aroldojr@gmail.com', idade: 20 };  
 const clienteAtualizado = atualizarCliente(clienteum, novosDados);
 console.log(clienteAtualizado);
 
 // DELETE
 const propriedadedelete = ['email', 'idade'];
-const clienteFinal = deletarCliente(clienteAtualizado, propriedadedelete);  // Variável renomeada para evitar conflito
+const clienteFinal = deletarCliente(clienteAtualizado, propriedadedelete); 
 console.log(clienteFinal);
